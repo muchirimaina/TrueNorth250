@@ -55,8 +55,8 @@ class Solution{
     }
 
     public static void main(String[] args){
-        int range = 35;
-        int[] nums = {40,234};
+        int range = 50;
+        int[] nums = {234};
         int k = 2;
         System.out.println("");
         System.out.println("**********************************************************");
