@@ -1,15 +1,30 @@
-// Given three inputs, an int n that means a range number from 1 to n. The other an array of nums. You should return
-// k numbers which will be picked randomly from the range and the array with equal probability. 
+// Given an integer n, an integer array nums, and an integer k, create a pool containing
+// all integers from 1 to n and all elements of nums. Return k randomly selected elements
+// from the pool without replacement, where every element has an equal probability of being selected.
 
-// Expected TC is O(n) and SC is O(n).
+// Constraints:
 
-// Example: int n = 30, int[] nums = {65,200,250}, int k;
-// Ans [2,65] Example for k = 2
+// 1 <= n
+// 1 <= k <= n + nums.length
+// Every value in nums is greater than n.
+// nums contains no duplicates.
+
+// Example:
+
+// n = 5
+// nums = [20, 30, 40]
+// k = 3
+
+// Pool = [1, 2, 3, 4, 5, 20, 30, 40]
+
+// Possible output:
+// [20, 4, 2]
 
 
 
-// What am thinking -> create an ArrayList, add the nums from 1 to n, then add those in nums
-// Then use Math Random to fill an array and return it
+
+
+
 import java.util.*;
 class Solution{
 
@@ -57,7 +72,7 @@ class Solution{
     public static void main(String[] args){
         int range = 50;
         int[] nums = {234};
-        int k = 2;
+        int k = 3;
         System.out.println("");
         System.out.println("**********************************************************");
         System.out.print("You randomly selected Q(s):");
