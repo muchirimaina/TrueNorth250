@@ -72,7 +72,7 @@ class Solution{
     public static void main(String[] args){
         int range = 50;
         int[] nums = {234};
-        int k = 3;
+        int k = 2;
         System.out.println("");
         System.out.println("**********************************************************");
         System.out.print("You randomly selected Q(s):");
