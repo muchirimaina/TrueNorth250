@@ -70,7 +70,7 @@ class Solution{
     }
 
     public static void main(String[] args){
-        int range = 50;
+        int range = 58;
         int[] nums = {234};
         int k = 2;
         System.out.println("");
